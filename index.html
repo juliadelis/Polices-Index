@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- CSS only -->
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Titillium Web' rel='stylesheet'>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.5.0/firebase-ui-auth.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polices Index</title>
+
+
+</head>
+
+<body class="Background">
+
+    <nav class="white">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 m6 s12">
+                    <div class="nav-wrapper"><a id="logo-container" href="#" class="left brand-logo">
+
+                            <img alt="" style="width: 180px; " src="./assets/Logo-original.svg">
+                        </a></div>
+
+                    <ul class="right" id="nav-mobile">
+                        <li><a onclick="signIn()" href="#" style="color:#202124; text-decoration: none!important;"><i
+                                    class="material-icons valign-center">login</i></a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="row conteudo">
+            <div class="col l6 m6 s12">
+                <div class="centerBlock" style="margin-top: 15%;">
+                    <div>
+                        <p class="titulo"> Policies Index </p>
+                        <p class="subtitulo">
+                            An easy way to find the senhasegura<br>policies documents.
+                        </p><br>
+                    </div>
+                    <div id="firebaseui-auth-container" class="botaog" lang="en">
+                        <div
+                            class="firebaseui-container firebaseui-page-provider-sign-in firebaseui-id-page-provider-sign-in firebaseui-use-spinner">
+                            <div class="firebaseui-card-content">
+                                <form onsubmit="return false;">
+                                    <ul class="firebaseui-idp-list">
+                                        <li class="firebaseui-list-item"><button
+                                                class="firebaseui-idp-button mdl-button mdl-js-button mdl-button--raised firebaseui-idp-google firebaseui-id-idp-button"
+                                                data-provider-id="google.com" style="background-color:#ffffff"
+                                                data-upgraded=",MaterialButton"><span
+                                                    class="firebaseui-idp-icon-wrapper"><img class="firebaseui-idp-icon"
+                                                        alt=""
+                                                        src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg"></span><span
+                                                    class="firebaseui-idp-text firebaseui-idp-text-long">Sign in with
+                                                    Google</span><span
+                                                    class="firebaseui-idp-text firebaseui-idp-text-short">Google</span></button>
+                                        </li>
+                                    </ul>
+                                </form>
+                            </div>
+                            <div class="firebaseui-card-footer firebaseui-provider-sign-in-footer">
+                                <p class="firebaseui-tos firebaseui-tospp-full-message txtbr">By continuing, you are
+                                    indicating that you accept <br>our <a href="javascript:void(0)"
+                                        class="firebaseui-link firebaseui-tos-link" target="_blank">Terms of Service</a>
+                                    and <a href="javascript:void(0)" class="firebaseui-link firebaseui-pp-link"
+                                        target="_blank">Privacy Policy</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="col l6 m6 s12 center-align">
+                <div>
+                    <div class="logo">
+                        <img src="./assets/Logo-original.svg" />
+                    </div>
+                    <div class="figura">
+                        <script
+                            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_yeldu41r.json"
+                            background="transparent" speed="1" style="width: 500px; height:500px;" loop autoplay>
+                        </lottie-player>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+</body>
+
+</html>

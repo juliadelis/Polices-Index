@@ -1,0 +1,166 @@
+.Background{
+    font-family: 'Titillium Web'; 
+    background-image: linear-gradient(229deg, #B4D891, #156569);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+.box {
+background-color: #ffffff;
+border-radius: 15px;
+
+
+
+padding-top:59px;
+padding-bottom:59px;
+padding-left: 42px;
+padding-right: 42px;
+color: #1E262B;
+align-content: center;
+box-shadow:8px 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.botao{
+    background-color: #026566;
+    border:none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding:10px;
+    width: 100%;
+    
+}
+button:hover{
+    background-color:#B4D891 ;
+    color:#1E262B;
+  
+
+}
+.Title{
+    font-size: 24px;
+    text-align: center;
+    font-weight: lighter;
+    color:#666666;
+}
+.lottie{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-30%,-65%);
+
+}
+
+.conteudo{
+    padding-top:5%;
+    
+    
+
+}
+
+.logo{
+    
+    max-width:50%;
+    transform: translate(32%);
+}
+
+.form-select{
+    font-family: "Titillium Web";
+    color: rgba(0, 0, 0, 0.3);
+}
+.selecione
+{
+    border-bottom: 5px solid #B4D891 ;
+    border-left: none;
+    border-top:none;
+    border-right: none;
+    outline: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 35px;
+    font-size: 16px;    
+    background-color: white;
+    color:#757575;
+}
+
+.username{
+    margin-top: 10px;
+}
+
+.firebaseui-tos{
+    color:white!important;
+    text-align:left!important;
+}
+
+.firebaseui-link{
+    color:white!important;
+    text-decoration: underline!important;
+}
+
+.titulo{
+    font-size: 55px; 
+    font-weight: 500; 
+    max-width: 1000px;
+    color:#ffffff;
+}
+
+.subtitulo{
+    font-size: 20px; 
+    font-weight: 100; 
+    max-width: 1000px;
+    color:#ffffff;
+}
+.white{
+    background-color: #fff!important;
+}
+.nav{
+    height: 64px;
+    line-height: 64px;
+    font-size: 90px;
+    width: 100%!important;
+}
+.nav .brand-logo{
+    all: none;
+}
+.brand-logo{
+    position:static;
+    margin-right: 10px;
+    font-size: 2.1rem;
+    display: inline-block;
+    padding: 0;
+}
+.left{
+    float: left !important;
+}
+.material-icons{text-decoration: none!important;}
+
+.firebaseui-idp-button, .firebaseui-tenant-button{
+    font-size: 18px!important;
+    max-width:230px!important;
+    max-height: 70px!important;
+}
+.firebaseui-idp-text{
+    font-size: 18px!important;
+}
+
+.firebaseui-idp-list>.firebaseui-list-item, .firebaseui-tenant-list>.firebaseui-list-item{
+    text-align: left!important;
+}
+
+.firebaseui-container{
+    max-width: 100%!important;
+}
+.firebaseui-card-content{
+    padding: 0 0!important;
+}
+
+.firebaseui-card-footer{
+    padding: 0 0!important; 
+}
+
+.nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+    height: 0 !important;  
+}
